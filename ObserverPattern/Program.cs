@@ -1,4 +1,5 @@
-﻿using ObserverPattern.Observer;
+﻿using ObserverPattern.Observables;
+using ObserverPattern.Observer;
 
 namespace ObserverPattern
 {

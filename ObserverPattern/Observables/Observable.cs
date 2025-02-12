@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObserverPattern.Observable
+namespace ObserverPattern.Observables
 {
     class Observable : IObservable
     {
