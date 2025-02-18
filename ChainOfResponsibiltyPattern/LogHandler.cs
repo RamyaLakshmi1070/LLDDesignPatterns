@@ -13,7 +13,7 @@ namespace ChainOfResponsibiltyPattern
         public static int Debug = 2;
         public static int Error = 3;
 
-        public LogHandler(LogHandler logHandler)
+        protected LogHandler(LogHandler logHandler)
         {
             nextLogHandler = logHandler;
         }
