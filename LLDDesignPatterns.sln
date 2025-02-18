@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{1A71D2C3-6752-4C5E-99D2-8ECC96816B5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibiltyPattern", "ChainOfResponsibiltyPattern\ChainOfResponsibiltyPattern.csproj", "{A5625DCB-6B87-414D-A6A3-603836C681CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1A71D2C3-6752-4C5E-99D2-8ECC96816B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A71D2C3-6752-4C5E-99D2-8ECC96816B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A71D2C3-6752-4C5E-99D2-8ECC96816B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5625DCB-6B87-414D-A6A3-603836C681CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5625DCB-6B87-414D-A6A3-603836C681CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5625DCB-6B87-414D-A6A3-603836C681CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5625DCB-6B87-414D-A6A3-603836C681CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
