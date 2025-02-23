@@ -30,19 +30,18 @@ namespace StateDesignPattern
             try
             {
                 Console.WriteLine("Clicking Insert Cash Button...");
-                vendingMachine.SetVendingState(new HasMoneyState());
+                vendingMachine.GetVendingState().ClickOnInsertCashButton(vendingMachine);
 
                 Console.WriteLine("Inserting coins...");
-                vendingMachine.GetCoins().Add(Coins.Quarter);
-                vendingMachine.GetCoins().Add(Coins.Nickel);
+                vendingMachine.GetVendingState().InsertCoin(vendingMachine,Coins.Nickel);
+                vendingMachine.GetVendingState().InsertCoin(vendingMachine, Coins.Quarter);
                 Console.WriteLine($"Total inserted: {vendingMachine.GetCoins().Sum(c => (int)c)} cents");
 
                 Console.WriteLine("Selecting a product...");
-                vendingMachine.SetVendingState(new SelectionState());
+                vendingMachine.GetVendingState().ClickOnProductButton(vendingMachine);
                 vendingMachine.GetVendingState().ChooseProduct(vendingMachine, 101);
 
                 Console.WriteLine("Dispensing product...");
-                vendingMachine.SetVendingState(new DispenseState(vendingMachine, 101));
                 vendingMachine.GetVendingState().DispenseProduct(vendingMachine, 101);
 
                 // Display inventory after transaction
