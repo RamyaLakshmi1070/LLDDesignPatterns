@@ -11,8 +11,7 @@
             IArithmeticExpression arithmeticExpression = new ArithmeticExpression(number2, number3, Operator.Add);
             IArithmeticExpression arithmeticExpression1 = new ArithmeticExpression(number1, arithmeticExpression, Operator.Add);
             
-            arithmeticExpression.Evaluate();
-            arithmeticExpression1.Evaluate();
+             arithmeticExpression1.Evaluate();
 
         }
     }
