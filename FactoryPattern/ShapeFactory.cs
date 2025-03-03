@@ -8,8 +8,6 @@ namespace FactoryPattern
 {
     class ShapeFactory
     {
-        private readonly IShape shape;
-
         public IShape? GetShape(String name)
         {
             switch(name)
