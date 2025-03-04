@@ -15,7 +15,7 @@ namespace PrototypePattern
             Console.WriteLine("Since Phonenumber is private unable to clone it");
 
             Console.WriteLine("With Prototype Pattern");
-            Student1 student1 = new Student1(102, "Raoss", 90827478939);
+            Student1 student1 = new Student1(102, "Ross", 90827478939);
             Student1 cloneStudent2 = new Student1();
             cloneStudent2 = (Student1)student1.Clone();
             Console.WriteLine("Cloned Successfully");
