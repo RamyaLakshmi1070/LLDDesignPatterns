@@ -8,7 +8,7 @@ namespace MementoDesignPattern
 {
     class ConfigurationMemto
     {
-        public int h, w;
+        int h, w;
         public ConfigurationMemto(int height,int weight)
         {
             h = height;
