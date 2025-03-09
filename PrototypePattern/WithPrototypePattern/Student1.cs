@@ -17,6 +17,6 @@
             this.phoneNumber = phoneNumber;
         }
 
-        public Student1 Clone() => new Student1(rollNo, Name, phoneNumber);
+        public Student1 Clone() => this;
     }
 }
